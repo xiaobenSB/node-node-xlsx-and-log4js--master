@@ -1,5 +1,5 @@
 var xlsx = require('node-xlsx');
-var log4js = require('./2.js');
+var log4js = require('./log4.js');
 var fs = require('fs');
 
 const logger = log4js.getLogger()//根据需要获取logger,如在getLogger里加err或oth
